@@ -1,0 +1,39 @@
+body {
+  margin: 100px;
+  min-height: 100vh;
+  grid-template-columns: 500px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-items: center;
+}
+
+img {
+    width: 500px;
+    border-radius: 20px;
+    opacity: .7;
+    transition: .5s;
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-row-end: 2;
+
+  }
+  img:hover {
+    opacity: 1;
+  }
+
+  .grid {
+    width: 500px;
+    border-radius: 20px;
+    opacity: .7;
+    transition: .5s;
+    cursor: pointer;
+    grid-column-start: 3;
+    grid-row-end: 2;
+  }
+
+  button {
+    grid-column-start: 3;
+    grid-row-end: 4;
+    justify-items: center;
+     }
