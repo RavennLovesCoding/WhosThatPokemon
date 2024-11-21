@@ -36,4 +36,10 @@ img {
     grid-column-start: 3;
     grid-row-end: 4;
     justify-items: center;
+    background-color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    color:bisque;
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
      }
