@@ -21,5 +21,5 @@ myButton.addEventListener("click", function() {
       const container = document.getElementById("container");
 
     container.innerHTML += `<br><img src="images/c2.jpg" class="grid">`;
-    }, 6000); 
+    }, 5000); 
 }, { once: true });
